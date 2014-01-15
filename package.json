@@ -1,0 +1,14 @@
+{
+  "name": "pull-stream-concat",
+  "version": "0.0.1",
+  "description": "Concatenates two pull-streams",
+  "devDependencies": {
+    "nodeunit": "~0.8.2"
+  },
+  "dependencies": {
+    "pull-stream": "~2.21.0"
+  },
+  "scripts": {
+      "test": "node ./node_modules/.bin/nodeunit test.js"
+  }
+}
